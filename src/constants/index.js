@@ -44,22 +44,22 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
   // {
-  //   title: "React Native Developer",
-  //   icon: mobile,
+  //   title: "Web Developer",
+  //   icon: web,
   // },
-  {
-    title: "Frontend Developer",
-    icon: backend,
-  },
-  {
-    title: "Problem Solver",
-    icon: creator,
-  },
+  // // {
+  // //   title: "React Native Developer",
+  // //   icon: mobile,
+  // // },
+  // {
+  //   title: "Frontend Developer",
+  //   icon: backend,
+  // },
+  // {
+  //   title: "Problem Solver",
+  //   icon: creator,
+  // },
 ];
 
 const experiences = [
