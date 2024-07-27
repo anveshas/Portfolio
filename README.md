@@ -20,6 +20,11 @@ Welcome to my personal portfolio website! This site is designed to showcase my s
 
 ### Environment Variables
 
+This project uses environment variables for configuration. Create a `.env` file in the root of the project with the following content:
+
+  REACT_APP_EMAILJS_SERVICE_ID=your_emailjs_service_id
+  REACT_APP_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
+  REACT_APP_EMAILJS_USER_ID=your_emailjs_user_id
 
 ## Getting Started
 
@@ -34,16 +39,10 @@ To get a local copy of this project up and running, follow these steps:
 3. **Install dependencies:**
     ```bash
    npm install
-4. This project uses environment variables for configuration. Create a `.env` file in the root of the project with the following content:
-
-  REACT_APP_EMAILJS_SERVICE_ID=your_emailjs_service_id
-  REACT_APP_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
-  REACT_APP_EMAILJS_USER_ID=your_emailjs_user_id
-
-5. **Run the development server:**
+4. **Run the development server:**
     ```bash
     npm run dev
-6. Open your browser and visit
+5. Open your browser and visit
    ```bash
    http://localhost:3000
 
