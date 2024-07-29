@@ -1,5 +1,5 @@
 // // import React from "react";
-// // import Tilt from "react-tilt";
+// // // import Tilt from "react-tilt";
 // // import { motion } from "framer-motion";
 
 // // import { styles } from "../styles";
@@ -10,7 +10,6 @@
 // // import resume from "../assets/resume.pdf";
 
 // // const ServiceCard = ({ index, title, icon }) => (
-// //   <Tilt className='xs:w-[250px] w-full'>
 // //     <motion.div
 // //       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
 // //       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -34,7 +33,6 @@
 // //         </h3>
 // //       </div>
 // //     </motion.div>
-// //   </Tilt>
 // // );
 
 // // const About = () => {
@@ -100,6 +98,7 @@
 // // };
 
 // // export default SectionWrapper(About, "about");
+
 // import React from "react";
 // // import Tilt from "react-tilt";
 // import { motion } from "framer-motion";
@@ -153,33 +152,36 @@
 //         Computer Science at Jaypee Institute of Information Technology, Noida. 
 //         My passion for problem-solving and analytical thinking led me to this field. 
 //         I am actively working on expanding my knowledge and mastering new technologies 
-//         to tackle complex challenges. My goal is to continuously improve my skills in 
+//         to tackle complex challenges. 
+//         <br />
+//         My goal is to continuously improve my skills in 
 //         web development and problem-solving to create innovative solutions and 
 //         contribute effectively to the tech industry.
-//         {/* Explore my problem-solving skills on {" "}
-//         <a
-//           href="https://leetcode.com/anveshas"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="flex items-center text-blue-500 hover:underline"
-//         >
-//           <img src={leetcode} alt="LeetCode" className="w-6 h-6 mr-2" />
-//           LeetCode
-//         </a>{" "}
-//         and{" "}
-//         <a
-//           href="https://www.codechef.com/users/anveshas"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//           className="flex items-center text-blue-500 hover:underline"
-//         >
-//           <img src={codechef} alt="CodeChef" className="w-6 h-6 mr-2" />
-//           CodeChef
-//         </a>. */}
+//         <br />
+//           Explore my problem-solving skills on{" "}
+//           <a
+//             href="https://leetcode.com/diya9"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="text-blue-500 hover:underline"
+//           >
+//             LeetCode.
+//           </ a>
+//           {/* </a>{" "}
+//           and{" "}
+//           <a
+//             href="https://www.codechef.com/users/sanvesha28"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="text-blue-500 hover:underline"
+//           >
+//             CodeChef
+//           </a>. */}
 //       </motion.p>
 
 //       {/* Download Resume Button */}
 //       <div className='mt-8'>
+//       {/* <p className='text-white-100 mb-4'>Download my resume to learn more about my skills and experience.</p> */}
 //         <a
 //           href={resume}
 //           download
@@ -200,7 +202,6 @@
 // };
 
 // export default SectionWrapper(About, "about");
-
 import React from "react";
 // import Tilt from "react-tilt";
 import { motion } from "framer-motion";
@@ -243,7 +244,7 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Introduction</p> */}
-        <h2 className={styles.sectionHeadText}>Introduction.</h2>
+        <h2 className={styles.sectionHeadText}>About.</h2>
       </motion.div>
 
       <motion.p
@@ -304,3 +305,4 @@ const About = () => {
 };
 
 export default SectionWrapper(About, "about");
+
